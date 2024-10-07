@@ -1,0 +1,95 @@
+
+
+:root {
+  background-color: #9ee5ff; 
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1,h2,h3,h4 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 54px;
+  color: #1E90FF; 
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 10px 0;
+  width: 200px;
+  text-align: center;
+  border: 1px solid hsl(305, 90%, 39%);
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: hsl(305, 90%, 39%); 
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 hsl(305, 90%, 39%);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#scoreValue {
+  color: #1E90FF; 
+}

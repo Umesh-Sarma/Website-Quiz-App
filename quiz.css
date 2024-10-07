@@ -1,0 +1,57 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 18px;
+  border: 3px solid hsl(305, 90%, 39%); 
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 hsl(305, 90%, 39%);
+}
+
+.choice-text {
+  padding: 15px;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745; 
+}
+
+.incorrect {
+  background-color: #dc3545; 
+}
+
+#hud {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #1E90FF; 
+}
+
+.hud-score, .hud-question {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: hsl(305, 90%, 39%); 
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  border: 3px solid hsl(305, 90%, 39%); 
+  margin-top: 15px;
+}
+
+#progressBarFull {
+  height: 34px;
+  background-color: #1E90FF; 
+}
